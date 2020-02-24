@@ -7,6 +7,8 @@ def line(array)
   else 
     new_array = array.each_with_index.map do |name, index| "#{index + 1}. #{name}"
   end
+  puts "The line is currently: #{new_array.join(" ")}"
+  end
 end
 
 def take_a_number(katz, not_katz)
